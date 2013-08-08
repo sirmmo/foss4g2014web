@@ -71,7 +71,8 @@ z-index: 1000;
   text-shadow: none;
 }
 .navbar .brand a{
-  color: rgb(49,42,30)!important;
+  color: white!important;
+  //color: rgb(49,42,30)!important;
   font-weight: bold;
 }
 /* CSS Document */
@@ -136,7 +137,7 @@ a[href^="tel:"] {
 header {
   /*padding: 30px 0 29px;*/
   z-index: 50;
-  background: #AD4D2B /*url(../img/header-bg.png) repeat*/;
+  background: #0000B6 /*url(../img/header-bg.png) repeat*/;
 }
 /* navbar */
 .navbar_ {
@@ -261,7 +262,7 @@ header {
 .nav-collapse_ .nav > li > ul li.sfHover > a {
   text-decoration: none;
   color: #ffffff;
-  background: #F25C27;
+  background: #0000B6;
 }
 .nav-collapse_ .nav ul .sf-sub-indicator {
   display: none;
@@ -294,7 +295,7 @@ h4,
 h5,
 h6 {
   text-transform: none;
-  color: #F25C27;
+  color: white;;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   letter-spacing: -1px;
@@ -344,13 +345,14 @@ p {
 }
 .bg-content {
   background: url(../img/bg-content.jpg) 50% 50%;
+//  background: #0F4C00;
 }
 .block-slogan {
   overflow: hidden;
   padding-bottom: 44px;
 }
 .block-slogan h2:first-letter {
-  color: #F25C27;
+  color: white;
   font-weight: normal;
 }
 .block-slogan h2 {
@@ -425,7 +427,7 @@ img {
   padding-top: 5px;
 }
 .thumbnails-1 .thumbnail-1 section h3 {
-  color:#F25C27;
+  color:#0000B6;
   font-weight: normal;
   font-size:16px;
   margin:0 0 5px;
@@ -525,10 +527,10 @@ img {
 }
 .list.extra1 a:hover,
 .list.extra2 a:hover {
-  color: #F25C27;
+  color: #0000B6;
 }
 .list li a {
-  color: #F25C27;
+  color: #0000B6;
   display: inline-block;
 }
 .list li a:hover {
@@ -613,7 +615,7 @@ img {
   
     overflow: hidden;}
 .meta a:hover {
-  color:#F25C27;
+  color:#0000B6;
   text-decoration:underline;}
 .date-1 {
   float: left;
@@ -704,7 +706,7 @@ img {
 }
 .mail-1 {
   text-decoration: underline;
-  color: #F25C27;
+  color: #0000B6;
 }
 .mail-1:hover {
   text-decoration: none;
@@ -763,7 +765,7 @@ img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border-bottom: 1px dashed #F25C27;
+  border-bottom: 1px dashed #0000B6;
 }
 #contact-form input {
   height: 30px;
@@ -818,7 +820,7 @@ img {
 /*----------- buttons & links--------------*/
 .btn-1 {
   color: #fff;
-  background: #F25C27;
+  background: #0000B6;
   padding: 5px 14px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -870,7 +872,7 @@ img {
   overflow: hidden;
 }
 .box-404 h2 {
-  color: #F25C27;
+  color: #0000B6;
   font-size: 80px;
   line-height: 84px;
   font-weight: normal;
@@ -928,7 +930,7 @@ footer {
   padding-top: 6px;
 }
 .privacy a {
-  color: #F25C27;
+  color: #0000B6;
 }
 .list-social {
   list-style: none outside none;
@@ -1103,7 +1105,7 @@ footer {
   .navbar_ .btn {
     display: inline-block;
     float: right;
-    background: #F25C27;
+    background: #0000B6;
     padding: 18px 0 20px;
     text-decoration: none;
     margin: 0;
@@ -1186,7 +1188,7 @@ footer {
   .nav-collapse_ .nav > li.active > a:hover {
     text-decoration: none;
     color: #ffffff;
-    background: #F25C27;
+    background: #0000B6;
   }
   .sub-menu > a {
     position: relative;
