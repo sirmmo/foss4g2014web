@@ -1,1 +1,5 @@
-_site/
+_site
+vendor
+bin
+.bundle
+_theme_packages
