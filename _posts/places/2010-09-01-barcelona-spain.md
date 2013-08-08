@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Nottingham, England"
+title: "Barcelona, Spain"
 description: ""
 category: Place
 tags: ['place']
-lat: 52.95
-lng: -1.1333
+lat: 41.383333
+lng: 2.183333
 zoom: 10
 now: true
 ---
 {% include JB/setup %}
-FOSS4G 2013
+FOSS4G 2010

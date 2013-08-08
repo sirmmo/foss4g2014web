@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Nottingham, England"
+title: "Victoria, Canada"
 description: ""
 category: Place
 tags: ['place']
-lat: 52.95
-lng: -1.1333
+lat: 48.428611
+lng: -123.365556
 zoom: 10
 now: true
 ---
 {% include JB/setup %}
-FOSS4G 2013
+FOSS4G 2007

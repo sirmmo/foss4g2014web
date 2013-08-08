@@ -10,4 +10,4 @@ zoom: 10
 now: true
 ---
 {% include JB/setup %}
-Home of FOSS4G 2014
+FOSS4G 2014

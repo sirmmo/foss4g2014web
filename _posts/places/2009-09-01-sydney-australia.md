@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Nottingham, England"
+title: "Sydney, Australia"
 description: ""
 category: Place
 tags: ['place']
-lat: 52.95
-lng: -1.1333
+lat: -33.859972
+lng: 151.211111
 zoom: 10
 now: true
 ---
 {% include JB/setup %}
-FOSS4G 2013
+FOSS4G 2009
