@@ -60,7 +60,7 @@ title: FOSS4G 2014
                             <li class="span3">
                                 {% capture counter %}{{ counter }}*{% endcapture %}
                                 <div class="thumbnail thumbnail-1">
-                                    <img src="{{BASE_PATH}}/assets/themes/map/img/blog-featured-01.jpg" alt="">
+                                    <img src="/assets/Flag_of_Cascadia.png" alt="">
                                     <section>
                                         <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
                                         <div class="meta">
