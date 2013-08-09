@@ -12,10 +12,7 @@ title: FOSS4G 2014
                     {% for place in site.tags.place %}
                     <li data-lat="{{place.lat}}" data-lng="{{place.lng}}" data-zoom="{{place.zoom}}" {% if forloop.first %}class="flex-active-slide"{% endif %}>                                
                      <div class="year hidden">
-                        {% if place.now %}{{site.time | date:"%Y"}}
-                        {%else %}
                         {{ place.date |date:"%Y"}}
-                        {%endif %}
                     </div>
                       <div class="flex-caption hidden">
                             <h3>{{ place.title }}</h3>

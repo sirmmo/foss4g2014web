@@ -7,7 +7,6 @@ tags: ['place']
 lat: 45.5236
 lng: -122.6750
 zoom: 10
-now: true
 ---
 {% include JB/setup %}
 FOSS4G 2014
