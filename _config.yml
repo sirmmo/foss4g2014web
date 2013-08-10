@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year/:month/:title 
+permalink: /posts/:year/:month/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", 'bin', 'vendor', '.bundle', 'Gemfile*']
 pygments: true
@@ -66,7 +66,6 @@ JB :
   #   /assets
   #
   ASSET_PATH : false
-
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
   #
