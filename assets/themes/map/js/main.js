@@ -1,10 +1,7 @@
 ---
 ---
 var images;
-var map = mapbox.map('map');
-
-// var layer = mapbox.layer().id('eknuth.map-00suez4o');
-
+var map = mapbox.map('map', null, null, []);
 var layer, retina = window.devicePixelRatio >= 2;
 if (retina) {
     // Retina tiles are sized 1/2 of normal tiles for twice the pixel
@@ -14,15 +11,10 @@ if (retina) {
     layer = mapbox.layer().id('eknuth.map-bm4l8vlb');
 } else {
     // use a standard tileset
-    // layer = mapbox.layer().id('eknuth.map-00suez4o');
     layer = mapbox.layer().id('eknuth.map-0na67qto');
 }
-// var layer = mapbox.layer().id('eknuth.map-56tlzhxg');
-// var layer = new MM.TemplatedLayer('http://b.tile.stamen.com/watercolor/{Z}/{X}/{Y}.png')
 map.addLayer(layer);
-// map.centerzoom({lat: 45.5, lon: -122.6 },3);
 map.centerzoom({lat: 0, lon: 0 },3);
- // map.ui.zoomer.add();
 var markers = mapbox.markers.layer().url( app.basePath + '/assets/data/places.geojson');
 map.addLayer(markers);
 map.addCallback('zoomed', function(m) {
