@@ -11,9 +11,9 @@ title: FOSS4G 2014
                 <ul class="slides">
                     {% for place in site.tags.place %}
                     <li data-lat="{{place.lat}}" data-lng="{{place.lng}}" data-zoom="{{place.zoom}}" {% if forloop.first %}class="flex-active-slide"{% endif %}>                                
-                     <div class="year hidden">
+                     <!-- <div class="year hidden">
                         {{ place.date |date:"%Y"}}
-                    </div>
+                    </div> -->
                       <div class="flex-caption hidden">
                             <h3>{{ place.title }}</h3>
                             {{ place.content }}
@@ -78,7 +78,7 @@ title: FOSS4G 2014
                                         </div>
                                         <div class="clear">
                                         </div>
-                                        <a href="{{ post.url }}" class="btn btn-1">read more</a>
+                                        <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-1">read more</a>
                                     </section>
                                 </div>
                             </li>
