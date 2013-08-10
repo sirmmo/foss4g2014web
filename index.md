@@ -62,7 +62,7 @@ title: FOSS4G 2014
                                 <div class="thumbnail thumbnail-1">
                                     <img src="{{BASE_PATH}}/assets/Flag_of_Cascadia.png" alt="">
                                     <section>
-                                        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                                        <a href="{{BASE_PATH}}{{ post.url }}"><h3>{{ post.title }}</h3></a>
                                         <div class="meta">
                                             <time datetime="{{ post.date }}" class="date-1">
                                                 <i class="icon-calendar">
@@ -78,7 +78,7 @@ title: FOSS4G 2014
                                         </div>
                                         <div class="clear">
                                         </div>
-                                        <a href="{{ post.url }}" class="btn btn-1">read more</a>
+                                        <a href="{{BASE_PATH}}{{ post.url }}" class="btn btn-1">read more</a>
                                     </section>
                                 </div>
                             </li>
