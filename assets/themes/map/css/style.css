@@ -108,7 +108,7 @@ a[href^="tel:"] {
   background: url(../img/spinner.gif) 50% 50% no-repeat #fff;
 }
 .preloader {
-  background: url(../img/loader.gif) center center no-repeat;
+  background: url(/assets/themes/map/img/loader.gif) center center no-repeat;
 }
 .clear {
   clear: both;

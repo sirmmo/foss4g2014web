@@ -40,7 +40,7 @@
 }
 
 #gallerySlider .placeholder{
-	background: url(../img/loader.gif) no-repeat center center;
+	background: url(/assets/themes/map/img/loader.gif) no-repeat center center;
 	height: 100%;
 	line-height: 1px;
 	text-align: center;
