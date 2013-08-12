@@ -22,9 +22,11 @@
               </div>
               <div class="clear">
               </div>
+              {% if page.photo %}
               <div class="">
                 <img alt="" src="{{BASE_PATH}}/assets/Flag_of_Cascadia.png" style="visibility: visible; opacity: 1;">
               </div>
+              {% endif %}
               {{ content }}
             </li>
           </ul>
