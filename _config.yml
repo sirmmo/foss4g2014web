@@ -97,10 +97,9 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : false
-    #provider : google 
+    provider : 'google'
     google : 
-        tracking_id : 'UA-138693-5'
+        tracking_id : 'UA-43123250-1'
     getclicky :
       site_id : 
     mixpanel :
