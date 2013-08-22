@@ -15,8 +15,8 @@ if (retina) {
 }
 map.addLayer(layer);
 map.centerzoom({lat: 0, lon: 0 },3);
-var markers = mapbox.markers.layer().url( app.basePath + '/assets/data/places.geojson');
-map.addLayer(markers);
+//var markers = mapbox.markers.layer().url( app.basePath + '/assets/data/places.geojson');
+//map.addLayer(markers);
 map.addCallback('zoomed', function(m) {
     // respond to new center:
    console.log('zoomed');
